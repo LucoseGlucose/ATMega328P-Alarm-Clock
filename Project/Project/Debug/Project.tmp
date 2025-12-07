@@ -1,0 +1,98 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\avrasm\inc\m328pdef.inc</FILE>
+  <FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Clock.inc</FILE>
+  <FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\TWI.inc</FILE>
+  <FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Conversions.inc</FILE>
+  <FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Division.inc</FILE>
+  <FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\LCD.inc</FILE>
+  <FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Delay.inc</FILE>
+  <FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Analog.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Debug\Project.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Project.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Project.map</FILE>
+  <FILE>Project.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\main.asm</FILE><LINE>17</LINE></start>
+  <loop><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\main.asm</FILE><LINE>46</LINE></loop>
+  <clock><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Clock.inc</FILE><LINE>3</LINE></clock>
+  <TWI><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\TWI.inc</FILE><LINE>3</LINE></TWI>
+  <twiWait><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\TWI.inc</FILE><LINE>9</LINE></twiWait>
+  <twiTransmitStart><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\TWI.inc</FILE><LINE>16</LINE></twiTransmitStart>
+  <twiTransmitSLA><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\TWI.inc</FILE><LINE>24</LINE></twiTransmitSLA>
+  <twiTransmitData><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\TWI.inc</FILE><LINE>33</LINE></twiTransmitData>
+  <twiTransmitStop><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\TWI.inc</FILE><LINE>43</LINE></twiTransmitStop>
+  <twiReceiveData><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\TWI.inc</FILE><LINE>49</LINE></twiReceiveData>
+  <clockInit><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Clock.inc</FILE><LINE>13</LINE></clockInit>
+  <clockGetTime><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Clock.inc</FILE><LINE>53</LINE></clockGetTime>
+  <clockSetRegister><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Clock.inc</FILE><LINE>42</LINE></clockSetRegister>
+  <clockGetDate><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Clock.inc</FILE><LINE>77</LINE></clockGetDate>
+  <clockSetTime><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Clock.inc</FILE><LINE>101</LINE></clockSetTime>
+  <clockSetDate><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Clock.inc</FILE><LINE>119</LINE></clockSetDate>
+  <clockGetAlarm><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Clock.inc</FILE><LINE>136</LINE></clockGetAlarm>
+  <clockSetAlarm><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Clock.inc</FILE><LINE>160</LINE></clockSetAlarm>
+  <CONVERSIONS><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Conversions.inc</FILE><LINE>3</LINE></CONVERSIONS>
+  <DIVISION><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Division.inc</FILE><LINE>3</LINE></DIVISION>
+  <divide><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Division.inc</FILE><LINE>6</LINE></divide>
+  <dLoop><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Division.inc</FILE><LINE>10</LINE></dLoop>
+  <dFinish><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Division.inc</FILE><LINE>16</LINE></dFinish>
+  <divideByteFromWord><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Division.inc</FILE><LINE>22</LINE></divideByteFromWord>
+  <dwLoop><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Division.inc</FILE><LINE>27</LINE></dwLoop>
+  <dwContinue><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Division.inc</FILE><LINE>37</LINE></dwContinue>
+  <dwFinish><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Division.inc</FILE><LINE>40</LINE></dwFinish>
+  <toBCD><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Conversions.inc</FILE><LINE>8</LINE></toBCD>
+  <numToAscii><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Conversions.inc</FILE><LINE>20</LINE></numToAscii>
+  <LCD><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\LCD.inc</FILE><LINE>3</LINE></LCD>
+  <DELAY><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Delay.inc</FILE><LINE>21</LINE></DELAY>
+  <delayUS><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Delay.inc</FILE><LINE>5</LINE></delayUS>
+  <delayMS><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Delay.inc</FILE><LINE>13</LINE></delayMS>
+  <waitForMatch><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Delay.inc</FILE><LINE>36</LINE></waitForMatch>
+  <lcdInit><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\LCD.inc</FILE><LINE>15</LINE></lcdInit>
+  <lcdCommand><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\LCD.inc</FILE><LINE>64</LINE></lcdCommand>
+  <lcdClear><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\LCD.inc</FILE><LINE>47</LINE></lcdClear>
+  <lcdWrite><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\LCD.inc</FILE><LINE>53</LINE></lcdWrite>
+  <lcdInstruction><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\LCD.inc</FILE><LINE>75</LINE></lcdInstruction>
+  <ANALOG><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Analog.inc</FILE><LINE>3</LINE></ANALOG>
+  <analogReadInit><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Analog.inc</FILE><LINE>6</LINE></analogReadInit>
+  <analogWriteInit0><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Analog.inc</FILE><LINE>15</LINE></analogWriteInit0>
+  <analogWriteInit2><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Analog.inc</FILE><LINE>24</LINE></analogWriteInit2>
+  <analogBeepInit0><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Analog.inc</FILE><LINE>38</LINE></analogBeepInit0>
+  <analogBeepInit2><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Analog.inc</FILE><LINE>47</LINE></analogBeepInit2>
+  <analogRead><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Analog.inc</FILE><LINE>56</LINE></analogRead>
+  <analogReadWait><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Analog.inc</FILE><LINE>66</LINE></analogReadWait>
+  <analogWrite><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\Analog.inc</FILE><LINE>75</LINE></analogWrite>
+  <here><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\main.asm</FILE><LINE>42</LINE></here>
+  <testAlarm><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\main.asm</FILE><LINE>76</LINE></testAlarm>
+  <toggleAlarm><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\main.asm</FILE><LINE>61</LINE></toggleAlarm>
+  <clearAlarm><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\main.asm</FILE><LINE>98</LINE></clearAlarm>
+  <loud><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\main.asm</FILE><LINE>104</LINE></loud>
+  <display><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\main.asm</FILE><LINE>115</LINE></display>
+  <setAlarm><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\main.asm</FILE><LINE>92</LINE></setAlarm>
+  <showTime><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\main.asm</FILE><LINE>233</LINE></showTime>
+  <showAlarm><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\main.asm</FILE><LINE>183</LINE></showAlarm>
+  <addAlarmMinute><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\main.asm</FILE><LINE>123</LINE></addAlarmMinute>
+  <changeAlarmValue><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\main.asm</FILE><LINE>168</LINE></changeAlarmValue>
+  <addAlarmHour><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\main.asm</FILE><LINE>161</LINE></addAlarmHour>
+  <writeOff><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\main.asm</FILE><LINE>225</LINE></writeOff>
+  <showShowTime><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\main.asm</FILE><LINE>298</LINE></showShowTime>
+  <addTimeMinute><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\main.asm</FILE><LINE>237</LINE></addTimeMinute>
+  <changeTimeValue><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\main.asm</FILE><LINE>281</LINE></changeTimeValue>
+  <addTimeHour><FILE>C:\Users\LJorg\AlfredState\Fall 2025\Embedded Ctrl Fdmtls Lab\Project\Project\main.asm</FILE><LINE>274</LINE></addTimeHour>
+ </LABELS>
+</ASSEMBLER_INFO>
